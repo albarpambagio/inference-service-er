@@ -15,6 +15,7 @@ class TextInput(BaseModel):
 def read_root():
     return {"Hello": "World"}
 
+# service
 @app.post("/predict")
 def predict_emotion(input: TextInput):
     predictions = emotion_classifier(input.text)
