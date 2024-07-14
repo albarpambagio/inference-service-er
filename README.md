@@ -1,5 +1,5 @@
 # Emotion Recognition API
-This repository provides a FastAPI-based service for emotion recognition from text input using a pre-trained model.
+This repository provides a FastAPI-based service & Streamlit interface for emotion recognition from text input using a pre-trained model.
 
 ## Description
 Recognizing emotions is essential for effective communication, adding depth and meaning to our interactions. 
