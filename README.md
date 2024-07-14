@@ -30,6 +30,17 @@ The API expects a JSON payload in the following format:
 }
 ```
 
+## How to run the app
+### Local
+1. Start the backend service in the terminal
+```
+uvicorn main:app --reload
+```
+2. If the application startup is complete. Then run:
+```
+streamlit run streamlit_app.py
+```
+
 ## Dataset
 [PRDECT-ID](https://data.mendeley.com/datasets/574v66hf2v/1) 
 it is a compilation of Indonesian product reviews that come with emotion and sentiment labels. These reviews were gathered from one of Indonesia's largest e-commerce platforms, Tokopedia. 
