@@ -14,6 +14,16 @@ The system will be presented in an intuitive user interface that takes an input 
 To use the emotion recognition API, your input should consist of short text strings that represent product reviews or any other form of text where emotions are expressed.
 
 ## Project Architecture
+```
+├── app
+│   ├── main.py
+│   ├── __pycache__
+│   │   └── main.cpython-311.pyc
+│   └── streamlit_app.py
+├── Dockerfile
+├── indobertweet-base-emotion-recognition.ipynb
+└── requirements.txt
+```
 
 ## Expected Input Payload
 The API expects a JSON payload in the following format:
